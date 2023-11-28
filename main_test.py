@@ -1,6 +1,5 @@
 from unittest import TestCase
 
-from main import format_money
 
 # Format Money
 # * Takes a value and outputs to 2dp with default currency of £
