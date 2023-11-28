@@ -5,6 +5,7 @@ from unittest import TestCase
 # Format Money
 # * Takes a value and outputs to 2dp with default currency of £
 # * Takes an optional currency and outputs currency symbol (USD and GBP only)
+# * An additional currencies can be added
 # * Currency is accepted as a three letter code (otherwise value error is thrown)
 # * If currency doesn't exist, exception is thrown
 # * If value is less than zero, exception is thrown
@@ -25,6 +26,9 @@ class TestFormatMoney(TestCase):
     #     self.assertEqual(format_money(1, "GBP"), "£1.00")
     #     self.assertEqual(format_money(1, "USD"), "$1.00")
 
+    # def test_additional_currencies_can_be_added(self):
+    #     self.assertEqual(format_money(1, "EUR", {"EUR": "€"}), "€1.00")
+
     # def test_it_throws_an_excpetion_if_currency_is_not_a_three_letter_code(self):
     #     with self.assertRaises(ValueError):
     #         format_money(1, "US")
@@ -34,6 +38,10 @@ class TestFormatMoney(TestCase):
 
     #     with self.assertRaises(ValueError):
     #         format_money(1, "")
+
+    # def test_it_throws_an_exception_if_currency_in_map_is_not_a_three_letter_code(self):
+    #     with self.assertRaises(ValueError):
+    #         format_money(1, "GBP", {"EURO": "€"})
 
     # def test_it_throws_an_exception_if_currency_does_not_exist(self):
     #     with self.assertRaises(ValueError):
@@ -47,5 +55,5 @@ class TestFormatMoney(TestCase):
     #         format_money(-1, "USD")
 
     # def test_it_allows_negative_values_if_currency_is_eur(self):
-    #     self.assertEqual(format_money(-1, "EUR"), "€-1.00")
-    #     self.assertEqual(format_money(-1.1, "EUR"), "€-1.10")
+    #     self.assertEqual(format_money(-1, "EUR", {"EUR": "€"}), "€-1.00")
+    #     self.assertEqual(format_money(-1.1, "EUR", {"EUR": "€"}), "€-1.10")
