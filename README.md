@@ -8,12 +8,17 @@ RED -> GREEN -> REFACTOR
 * Refactor the code
 
 ## Why TDD?
-
 * The thinking is completed while writing the tests and not code
-* The code is written to pass the tests
-* The code is written to be testable
-* High test coverage
-* The code is written in small chunks
+* No unnecessary code
+* Byproduct - High test coverage
+
+* Creates confidence
+* Increase agility in developing 
+
+## Setup
+- Open in VS Code
+- Open in devcontainer
+- Open a terminal in VS Code and run `poetry shell`
 
 ## Run Pytest Watcher
 ```bash
@@ -33,3 +38,6 @@ main_test.py      27      0   100%
 ----------------------------------
 TOTAL             36      0   100%
 ```
+
+## Follow up resources
+- https://www.youtube.com/watch?v=tP25Otcrmpo
