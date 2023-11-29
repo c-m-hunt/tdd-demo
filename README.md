@@ -13,12 +13,18 @@ RED -> GREEN -> REFACTOR
 * Simplifies code
 * Avoids code duplication
 * Quick feedback
+* Long term investment in your code
+* Removing "the code is done, but I still need to write the tests" mentality
+  * Reduces the chance of not writing tests
+  * Removing stakeholder pressure to release code without tests
 
 Byproducts:
 * High test coverage
-* Creates confidence
+* Creates confidence from customers
 * Increase agility in developing
 * No unnecessary code
+* SAVED TIME LONG TERM
+* HAPPIER CUSTOMERS AND DEVELOPERS
 
 ## Setup
 - Open in VS Code
