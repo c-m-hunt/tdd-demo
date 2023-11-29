@@ -8,12 +8,17 @@ RED -> GREEN -> REFACTOR
 * Refactor the code
 
 ## Why TDD?
-* The thinking is completed while writing the tests and not code
-* No unnecessary code
-* Byproduct - High test coverage
+* Preparation is completed before writing the code
+* Code is documented through tests
+* Simplifies code
+* Avoids code duplication
+* Quick feedback
 
+Byproducts:
+* High test coverage
 * Creates confidence
-* Increase agility in developing 
+* Increase agility in developing
+* No unnecessary code
 
 ## Setup
 - Open in VS Code
