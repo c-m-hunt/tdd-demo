@@ -3,9 +3,9 @@
 ## What is TDD?
 RED -> GREEN -> REFACTOR
 
-* Write a failing test
-* Write the minimum amount of code to pass the test
-* Refactor the code
+* RED - Write a failing test
+* GREEN - Write the minimum amount of code to pass the test
+* REFACTOR - Refactor the code
 
 ## Why TDD?
 * Preparation is completed before writing the code
@@ -23,7 +23,7 @@ Byproducts:
 * Creates confidence from customers
 * Increase agility in developing
 * No unnecessary code
-* SAVED TIME LONG TERM
+* SAVED TIME AND MONEY LONG TERM
 * HAPPIER CUSTOMERS AND DEVELOPERS
 
 ## Setup
